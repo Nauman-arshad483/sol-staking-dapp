@@ -1,7 +1,12 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import { Space_Mono } from "next/font/google";
+import { Inconsolata } from "next/font/google";
+
+import "@/app/ui/global.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const spaceMono = Space_Mono({ subsets: ["latin"], weight: '400' });
+const inconsolata = Inconsolata({ subsets: ["latin"], weight: '400' });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inconsolata.className}>{children}</body>
     </html>
   );
 }
