@@ -38,7 +38,7 @@ const GetStartedSection = () => {
                 <p className='text-white font-bold text-sm'>Get SOL</p>
                 <p className='text-black text-sm'>
                   Buy BNB on an exchange (i.e. Binance). Transfer BNB to your
-                  wallet address. BEP-20 addresses start with a '0x'
+                  wallet address. BEP-20 addresses start with a &quot;0x&quot;
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@ const GetStartedSection = () => {
               <div className='flex flex-col'>
                 <p className='text-white font-bold text-sm'>Connect your Wallet</p>
                 <p className='text-black text-sm'>
-                  At the top of the site, click 'Connect wallet', confirm the
+                  At the top of the site, click &quot;Connect wallet&quot;, confirm the
                   action, after which you should see the numbers of your wallet
                 </p>
               </div>
@@ -70,8 +70,8 @@ const GetStartedSection = () => {
               <div className='flex flex-col'>
                 <p className='text-white font-bold text-sm'>Make a deposit</p>
                 <p className='text-black text-sm'>
-                  Click on the 'Deposit' button. In the window that opens, enter
-                  the amount, click again on the 'Deposit' button and confirm
+                  Click on the &quot;Deposit&quot; button. In the window that opens, enter
+                  the amount, click again on the &quot;Deposit&quot; button and confirm
                   the action
                 </p>
               </div>
@@ -90,7 +90,7 @@ const GetStartedSection = () => {
                 <p className='text-black text-sm'>
                   You have successfully created a deposit! Now every second you
                   will receive rewards that you can withdraw once the lockup
-                  period ends by clicking on the 'Withdraw' button
+                  period ends by clicking on the &quot;Withdraw&quot; button
                 </p>
               </div>
             </div>
