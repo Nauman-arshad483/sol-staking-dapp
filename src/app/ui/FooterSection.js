@@ -29,7 +29,7 @@ const FooterSection = () => {
 
             <div className="w-64 bg-transparent h-12 mx-4">
               <button className="bg-gradient-to-r from-purple-500 to-orange-500 text-white text-xl font-bold px-2 py-2 rounded-full hover:bg-blue-600 w-full">
-                Button
+                SmartContract
               </button>
             </div>
             <div className="w-64 bg-transparent h-12 ml-4 flex items-center justify-end pr-2">
