@@ -7,7 +7,7 @@ const CalculateProfit = () => {
       <div className="container mx-auto grid grid-cols-1 gap-8 ">
         {/* First div */}
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-black text-3xl font-bold mb-4">
+          <h2 className="text-white text-3xl font-bold mb-4">
             Calculate Your Profit
           </h2>
           <p className="text-black text-lg">
