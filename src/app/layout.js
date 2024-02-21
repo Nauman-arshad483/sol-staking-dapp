@@ -1,11 +1,7 @@
-import { Inter } from "next/font/google";
-import { Space_Mono } from "next/font/google";
 import { Inconsolata } from "next/font/google";
-
 import "@/app/ui/global.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const spaceMono = Space_Mono({ subsets: ["latin"], weight: '400' });
+
 const inconsolata = Inconsolata({ subsets: ["latin"], weight: '400' });
 
 export const metadata = {

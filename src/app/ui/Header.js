@@ -5,7 +5,25 @@ import styles from '@/app/ui/header.module.css';
 const Header = () => {
   const [isConnected, setIsConnected] = useState(false); 
 
-  const handleConnectWallet = () => {
+  const handleConnectWallet = async () => {
+    try {
+      const response = await fetch('/api/wallet/login/add', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        // If the response is successful, set isConnected to true
+        setIsConnected(true);
+      } else {
+        // Handle errors if any
+        console.error('Error connecting wallet:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error connecting wallet:', error);
+    }
     setIsConnected(true);
   };
 

@@ -15,10 +15,10 @@ const FooterSection = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="w-3 h-3 mr-1"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-3 h-3 mr-1"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <path d="M9.75 16a1.75 1.75 0 1 1-3.5 0m3.5-5.5a1.75 1.75 0 1 1-3.5 0m7 5.5a1.75 1.75 0 1 1-3.5 0m3.5-5.5a1.75 1.75 0 1 1-3.5 0m5.25 5.5a1.75 1.75 0 1 1-3.5 0"></path>
